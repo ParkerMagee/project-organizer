@@ -33,10 +33,6 @@ const HomePage = ({ projects }: ProjectListProps) => {
 
   return (
     <div>
-      <div id="up" className="z-10"></div>
-      <div id="down" className="z-10"></div>
-      <div id="left" className="z-10"></div>
-      <div id="right" className="z-10"></div>
       <div className="flex flex-col justify-center items-center min-h-screen min-w-full bg-black bg-opacity-60 absolute z-20">
         <div className="flex flex-col justify-center items-center w-4/5 my-12 py-10 rounded-xl bg-gray-200 bg-opacity-10">
           <h1 className="text-4xl text-gray-200 text-opacity-80 font-bold mt-5 mb-5 py-1 px-10 rounded-md border-2 border-gray-200 border-opacity-80">

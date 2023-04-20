@@ -43,10 +43,6 @@ const NewProject = () => {
   };
   return (
     <div>
-      <div id="up" className="z-10"></div>
-      <div id="down" className="z-10"></div>
-      <div id="left" className="z-10"></div>
-      <div id="right" className="z-10"></div>
       <div className="flex flex-col justify-center items-center min-h-screen w-screen bg-black bg-opacity-60 absolute z-20">
         <h1 className="text-3xl text-white font-bold text-opacity-80 my-5">
           New Project
